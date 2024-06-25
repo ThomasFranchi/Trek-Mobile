@@ -1,0 +1,32 @@
+{
+  "name": "my-trek-adventure-mobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-picker/picker": "^2.7.5",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.16",
+    "date-fns": "^2.29.3",
+    "expo": "^51.0.14",
+    "expo-image-picker": "~15.0.5",
+    "expo-location": "~17.0.1",
+    "expo-secure-store": "~13.0.1",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "^0.74.2",
+    "react-native-maps": "^1.14.0",
+    "react-native-select-dropdown": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7"
+  },
+  "private": true
+}
